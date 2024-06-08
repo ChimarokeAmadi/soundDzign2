@@ -11,22 +11,22 @@ const Navbar = () => {
 			</p>
 
 			<ul>
-				<li className='fs-16'>
+				<li className='fs-16 inter'>
 					<a href='#info' className='white-text'>
 						About
 					</a>
 				</li>
-				<li className='fs-16'>
+				<li className='fs-16 inter'>
 					<a href='#topics' className='white-text'>
 						Course Details
 					</a>
 				</li>
-				<li className='fs-16'>
+				<li className='fs-16 inter'>
 					<a href='#blog' className='white-text'>
 						Blog
 					</a>
 				</li>
-				<li className='fs-16'>
+				<li className='fs-16 inter'>
 					<a href='#testimonials' className='white-text'>
 						Testimonials
 					</a>
