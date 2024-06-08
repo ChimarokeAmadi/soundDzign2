@@ -6,14 +6,14 @@ import R15 from "../../assets/Rectangle 15_Topic-images.png";
 import R16 from "../../assets/Rectangle 16_Topic-images.png";
 import R17 from "../../assets/Rectangle 17_Topic-images.png";
 import R18 from "../../assets/Rectangle 18_Topic-images.png";
-
+import G7 from "../../assets/Group 7.png";
 const Topics = () => {
 	const [currentImage, setCurrentImage] = useState(R13);
 
 	return (
 		<section id='topics'>
 			<h2 className='fs-40 red-line inter'>What will you learn?</h2>
-			<div>
+			<div className='topic-list'>
 				<ul>
 					<li
 						className='alegreya fs-20'
@@ -59,7 +59,10 @@ const Topics = () => {
 					</li>
 				</ul>
 
-				<img src={currentImage} alt='' />
+				<div className='dynamic-image'>
+					<img src={currentImage} alt='' />
+					<img src={G7} alt='' className='G7' />
+				</div>
 			</div>
 		</section>
 	);

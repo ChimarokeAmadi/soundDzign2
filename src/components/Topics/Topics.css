@@ -15,7 +15,7 @@
 	height: 4px;
 }
 
-#topics div {
+#topics div.topic-list {
 	display: flex;
 	justify-content: space-between;
 	padding: 39px 12px 0px 20px;
@@ -32,7 +32,6 @@
 #topics div ul li {
 	margin-left: 5px;
 	margin-bottom: 24px;
-	position: relative;
 }
 
 #topics div ul li.mb-0 {
@@ -42,4 +41,19 @@
 #topics img {
 	width: 558px;
 	height: 287px;
+}
+
+div.dynamic-image {
+	width: 558px;
+	height: 287px;
+	position: relative;
+	padding: 0px;
+}
+
+#topics img.G7 {
+	width: 88px;
+	height: 60px;
+	position: absolute;
+	right: -22px;
+	bottom: -25px;
 }
