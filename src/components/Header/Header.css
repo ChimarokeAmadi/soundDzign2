@@ -15,6 +15,7 @@
 	border-radius: 20px 20px 0px 0px;
 	padding: 50px 40px;
 	color: #ffffff;
+	width: 453px;
 }
 
 #header .cta button {
@@ -23,4 +24,22 @@
 	color: #ffffff;
 	border: none;
 	border-radius: 10px;
+}
+
+#header .cta p {
+	position: relative;
+	margin-bottom: 36px;
+}
+
+#header .cta p::after {
+	position: absolute;
+	bottom: -16px;
+	left: 0;
+	content: "";
+	width: 60px;
+	height: 4px;
+}
+
+#header .cta h2 {
+	margin-bottom: 16px;
 }

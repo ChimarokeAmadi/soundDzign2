@@ -10,6 +10,7 @@
 	left: 142.5px;
 	right: 142.5px;
 	border-radius: 0px 0px 10px 10px;
+	z-index: 100;
 }
 
 #navbar ul {

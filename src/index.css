@@ -18,6 +18,10 @@ body {
 	color: white;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .alegreya {
 	font-family: "Alegreya", serif;
 	font-optical-sizing: auto;
@@ -35,8 +39,28 @@ body {
 	font-size: 16px;
 }
 
+.fs-18 {
+	font-size: 18px;
+}
+
+.fs-30 {
+	font-size: 30px;
+}
+
+.fs-20 {
+	font-size: 20px;
+}
+
 .fs-40 {
 	font-size: 40px;
+}
+
+.mb-0 {
+	margin-bottom: 0px;
+}
+
+.mt-0 {
+	margin-top: 0px;
 }
 
 a {
@@ -49,4 +73,12 @@ a {
 
 .red-text {
 	color: var(--red-color);
+}
+
+.red-line::after {
+	background-color: var(--red-color);
+}
+
+.yellow-line::after {
+	background-color: var(--yellow-color);
 }

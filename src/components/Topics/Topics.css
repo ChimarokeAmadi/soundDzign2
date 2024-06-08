@@ -1,0 +1,45 @@
+#topics {
+	padding: 80px 128px 113px 128px;
+}
+
+#topics h2 {
+	position: relative;
+}
+
+#topics h2::after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 80px;
+	height: 4px;
+}
+
+#topics div {
+	display: flex;
+	justify-content: space-between;
+	padding: 39px 12px 0px 20px;
+}
+
+#topics div ul {
+	list-style-type: disc;
+}
+
+#topics div li::marker {
+	color: var(--red-color);
+}
+
+#topics div ul li {
+	margin-left: 5px;
+	margin-bottom: 24px;
+	position: relative;
+}
+
+#topics div ul li.mb-0 {
+	margin-bottom: 0px;
+}
+
+#topics img {
+	width: 558px;
+	height: 287px;
+}
