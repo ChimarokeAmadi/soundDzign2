@@ -13,6 +13,11 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: black;
+	color: white;
+}
+
 .alegreya {
 	font-family: "Alegreya", serif;
 	font-optical-sizing: auto;
