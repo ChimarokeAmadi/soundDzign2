@@ -1,7 +1,10 @@
 #navbar {
 	width: 1024px;
+	height: 80px;
+	padding: 25px 46.5px 36px 17.5px;
 	display: flex;
 	justify-content: space-between;
+	background-color: rgb(00, 00, 00, 0.5);
 }
 
 #navbar ul {

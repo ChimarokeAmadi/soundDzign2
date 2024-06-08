@@ -5,6 +5,14 @@
 	--yellow-color: #ffca28;
 }
 
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 .alegreya {
 	font-family: "Alegreya", serif;
 	font-optical-sizing: auto;
