@@ -1,6 +1,7 @@
 #header {
 	position: relative;
 	height: 720px;
+	background-image: url("../../assets/Header-Background.png");
 }
 
 #header .cta {
