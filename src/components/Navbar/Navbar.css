@@ -1,14 +1,22 @@
 #navbar {
-	width: 1024px;
 	height: 80px;
 	padding: 25px 46.5px 36px 17.5px;
 	display: flex;
 	justify-content: space-between;
 	background-color: rgb(00, 00, 00, 0.5);
+	position: fixed;
+	top: 30px;
+	left: 142.5px;
+	right: 142.5px;
+	border-radius: 0px 0px 10px 10px;
 }
 
 #navbar ul {
 	list-style: none;
 	display: flex;
 	gap: 50px;
+}
+
+#navbar a {
+	font-weight: 800;
 }

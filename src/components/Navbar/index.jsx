@@ -5,23 +5,31 @@ const Navbar = () => {
 	return (
 		<div id='navbar'>
 			<p className='fs-16 inter'>
-				<a href=''>
-					Sound<span>DZign</span>
+				<a href='#' className='white-text'>
+					Sound<span className='red-text'>DZign</span>
 				</a>
 			</p>
 
 			<ul>
 				<li className='fs-16'>
-					<a href='#info'>About</a>
+					<a href='#info' className='white-text'>
+						About
+					</a>
 				</li>
 				<li className='fs-16'>
-					<a href='#topics'>Course Details</a>
+					<a href='#topics' className='white-text'>
+						Course Details
+					</a>
 				</li>
 				<li className='fs-16'>
-					<a href='#blog'>Blog</a>
+					<a href='#blog' className='white-text'>
+						Blog
+					</a>
 				</li>
 				<li className='fs-16'>
-					<a href='#testimonials'>Testimonials</a>
+					<a href='#testimonials' className='white-text'>
+						Testimonials
+					</a>
 				</li>
 			</ul>
 		</div>
