@@ -38,3 +38,37 @@
 #testimonials p.student-testimonial {
 	font-weight: 100;
 }
+
+/* Tablet Version */
+@media (max-width: 1024px) {
+	#testimonials {
+		padding: 80px 70px;
+	}
+
+	#testimonials div.testimonials-container {
+		flex-direction: column;
+		gap: 50px;
+	}
+
+	#testimonials h2 {
+		margin-bottom: 60px;
+	}
+
+	#testimonials .student-info {
+		display: flex;
+		margin-left: 20px;
+	}
+
+	#testimonials .student-info img.student-image {
+		margin-right: 28px;
+	}
+
+	#testimonials .student-info p {
+		width: max-content;
+	}
+
+	#testimonials .student-info p.fs-20 {
+		margin-bottom: 7px;
+		margin-top: 8px;
+	}
+}
