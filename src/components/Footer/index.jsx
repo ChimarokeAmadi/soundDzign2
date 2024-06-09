@@ -59,7 +59,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className='footer-container'>
-				<footer className='fs-16'>
+				<footer className='fs-16 alegreya'>
 					This website is designed by Chimaroke Amadi Ⓒ 2024
 				</footer>
 			</div>
