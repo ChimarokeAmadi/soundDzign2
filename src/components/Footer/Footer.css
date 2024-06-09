@@ -32,3 +32,10 @@ footer {
 	display: flex;
 	gap: 16px;
 }
+
+/* Tablet Version */
+@media (max-width: 1024px) {
+	#footer {
+		padding: 50px 70px;
+	}
+}
