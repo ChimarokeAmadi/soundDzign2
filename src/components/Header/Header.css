@@ -43,3 +43,20 @@
 #header .cta h2 {
 	margin-bottom: 16px;
 }
+
+/* Tablet Version */
+@media (max-width: 1024px) {
+	#header .cta {
+		width: 356px;
+		right: 70px;
+		padding: 50px 36px 59px 40px;
+	}
+
+	#header .cta p::after {
+		bottom: -5px;
+	}
+
+	#header .cta p {
+		margin-bottom: 35px;
+	}
+}

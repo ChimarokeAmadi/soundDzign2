@@ -8,7 +8,7 @@
 	position: fixed;
 	top: 30px;
 	left: 142.5px;
-	right: 142.5px;
+	right: 113.5px;
 	border-radius: 0px 0px 10px 10px;
 	z-index: 100;
 }
@@ -21,4 +21,13 @@
 
 #navbar a {
 	font-weight: 800;
+}
+
+/* Tablet Version */
+@media (max-width: 1024px) {
+	#navbar {
+		top: 24px;
+		left: 40px;
+		right: 40px;
+	}
 }
