@@ -1,0 +1,34 @@
+#footer {
+	padding: 50px 128px;
+}
+
+#footer div.links {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer {
+	margin-top: 38px;
+}
+
+#footer .logo {
+	margin-bottom: 36px;
+	margin-left: 0px;
+}
+
+#footer div.contact-container p.red-text {
+	margin-bottom: 5px;
+}
+
+#footer div.contact-container .mb-5 {
+	margin-bottom: 5px;
+}
+
+#footer div.contact-container .ml-16 {
+	margin-left: 16px;
+}
+
+#footer div.socials-container {
+	display: flex;
+	gap: 16px;
+}
