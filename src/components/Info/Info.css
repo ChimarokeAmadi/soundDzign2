@@ -19,3 +19,14 @@
 	align-items: center;
 	justify-content: center;
 }
+
+/* Tablet Version */
+@media (max-width: 1024px) {
+	#info {
+		justify-content: space-around;
+	}
+
+	#info img.G7-red {
+		left: 90px;
+	}
+}

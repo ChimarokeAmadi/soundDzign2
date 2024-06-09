@@ -39,8 +39,8 @@
 }
 
 #topics img {
-	width: 558px;
-	height: 287px;
+	width: 100%;
+	height: 100%;
 }
 
 div.dynamic-image {
@@ -56,4 +56,20 @@ div.dynamic-image {
 	position: absolute;
 	right: -22px;
 	bottom: -25px;
+}
+
+/* Tablet Version */
+@media (max-width: 1024px) {
+	#topics {
+		padding: 80px 70px 110px 70px;
+	}
+
+	div.dynamic-image {
+		width: 385px;
+	}
+
+	#topics img.G7 {
+		right: -26px;
+		bottom: -30px;
+	}
 }

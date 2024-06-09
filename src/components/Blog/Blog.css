@@ -65,3 +65,43 @@
 	color: black;
 	font-weight: 600;
 }
+
+/* Tablet Version */
+@media (max-width: 1024px) {
+	#blog {
+		padding: 80px 70px 140px 70px;
+	}
+
+	#blog .posts-container {
+		display: grid;
+		grid-template-rows: auto 215px;
+		grid-template-columns: repeat(2, 324px);
+		gap: 30px;
+		width: auto;
+	}
+
+	#blog .blog-post {
+		width: unset;
+	}
+
+	#blog .blog-post img {
+		height: 159px;
+	}
+
+	#blog #daw-post {
+		margin-right: 16px;
+	}
+
+	#blog h2 {
+		margin-bottom: 40px;
+	}
+
+	#span2 {
+		grid-column: span 2;
+	}
+
+	#blog button {
+		bottom: 80px;
+		right: 70px;
+	}
+}
