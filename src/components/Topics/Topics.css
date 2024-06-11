@@ -1,5 +1,6 @@
 #topics {
 	padding: 80px 128px 113px 128px;
+	position: relative;
 }
 
 #topics h2 {
@@ -19,6 +20,7 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 39px 12px 0px 20px;
+	position: relative;
 }
 
 #topics div ul {
@@ -46,16 +48,15 @@
 div.dynamic-image {
 	width: 558px;
 	height: 287px;
-	position: relative;
 	padding: 0px;
 }
 
 #topics img.G7 {
 	width: 88px;
-	height: 60px;
 	position: absolute;
-	right: -22px;
-	bottom: -25px;
+	height: 60px;
+	right: 110px;
+	bottom: 80px;
 }
 
 /* Tablet Version */
@@ -69,7 +70,36 @@ div.dynamic-image {
 	}
 
 	#topics img.G7 {
-		right: -26px;
-		bottom: -30px;
+		right: 44px;
+		bottom: 80px;
+	}
+}
+
+/* Smartphone Version */
+@media (max-width: 720px) {
+	#topics {
+		padding: 61px 32px 83px 32px;
+	}
+	div.dynamic-image {
+		display: none;
+		position: unset;
+	}
+
+	#topics h2 {
+		font-size: 24px;
+	}
+
+	#topics img.G7 {
+		right: 32px;
+		bottom: 60px;
+	}
+
+	#topics h2::after {
+		width: 50px;
+	}
+
+	#topics div.topic-list {
+		padding: 0px;
+		margin: 30px 32px 23px 32px;
 	}
 }

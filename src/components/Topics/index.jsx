@@ -61,9 +61,9 @@ const Topics = () => {
 
 				<div className='dynamic-image'>
 					<img src={currentImage} alt='' />
-					<img src={G7} alt='' className='G7' />
 				</div>
 			</div>
+			<img src={G7} alt='' className='G7' />
 		</section>
 	);
 };
