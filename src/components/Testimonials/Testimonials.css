@@ -47,7 +47,7 @@
 /* Tablet Version */
 @media (max-width: 1024px) {
 	#testimonials {
-		padding: 80px 0px 70px 0px;
+		padding: 80px 0px;
 	}
 
 	#testimonials div.testimonials-container {

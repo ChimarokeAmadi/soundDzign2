@@ -2,6 +2,9 @@
 	position: relative;
 	height: 720px;
 	background-image: url("../../assets/Header-Background.png");
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #header .cta {
