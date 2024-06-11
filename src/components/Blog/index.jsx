@@ -30,13 +30,12 @@ const Blog = () => {
 					</p>
 					<div className='tag fs-13 alegreya'>Vox</div>
 				</div>
+				<button>
+					<a href='#' className='alegreya'>
+						All Posts
+					</a>
+				</button>
 			</div>
-
-			<button>
-				<a href='#' className='alegreya'>
-					All Posts
-				</a>
-			</button>
 		</section>
 	);
 };
