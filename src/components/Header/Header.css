@@ -63,4 +63,17 @@
 
 /* Smartphone version */
 @media (max-width: 720px) {
+	#header .cta {
+		left: 32px;
+		right: 32px;
+		padding: 45px 7px 39px 24px;
+	}
+
+	#header .cta h2 {
+		font-size: 32px;
+	}
+
+	#header .cta p {
+		margin-bottom: 25px;
+	}
 }
