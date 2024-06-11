@@ -54,6 +54,7 @@ footer {
 @media (max-width: 720px) {
 	#footer {
 		padding: 50px 32px 48px 32px;
+		align-items: start;
 	}
 
 	#footer footer {
