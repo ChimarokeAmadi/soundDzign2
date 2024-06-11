@@ -105,3 +105,15 @@
 		right: 70px;
 	}
 }
+
+/* Smartphone Version */
+@media (max-width: 720px) {
+	#blog .posts-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#blog .blog-post {
+		width: 311px;
+	}
+}
