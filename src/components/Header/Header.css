@@ -70,6 +70,7 @@
 		left: 32px;
 		right: 32px;
 		padding: 45px 7px 39px 24px;
+		width: unset;
 	}
 
 	#header .cta h2 {
